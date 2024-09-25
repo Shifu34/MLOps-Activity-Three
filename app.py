@@ -100,7 +100,7 @@ svm.LoadModel(filepath = "svm_model.npz")
 
 
 # Load the saved scaler
-scaler = load('scaler.joblib')
+scaler = load('model.joblib')
 
 @app.route('/')
 def home():
