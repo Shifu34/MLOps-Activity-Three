@@ -3,7 +3,7 @@ pipeline {
 
     environment {
         DOCKERHUB_CREDENTIALS = credentials('dockerhub-creds-id') // Set this in Jenkins credentials
-        DOCKER_IMAGE = 'hisanusman/flasktest-app'
+        DOCKER_IMAGE = 'i210324/flask'
     }
 
     stages {
